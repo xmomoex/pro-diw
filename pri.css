@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 .navbar {
   display: flex;
 }
@@ -16,6 +20,7 @@
 }
 .salud {
   display: flex;
+  justify-content: center;
   width: 100%;
 }
 .telefono {
@@ -47,6 +52,15 @@
 .iconMovil {
   align-items: center;
 }
+.infoTelf {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoTelf p {
+  margin: 0;
+}
+
 .infoTelf #telf {
   color: #1f2b6c;
   font-size: 16px;
@@ -61,6 +75,9 @@
   font-family: Work Sans;
   font-weight: 500;
   word-wrap: break-word;
+}
+.infoHorario p {
+  margin: 0;
 }
 
 .infoHorario #letra {
