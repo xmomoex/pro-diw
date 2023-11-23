@@ -1,0 +1,57 @@
+/*CONTENEDOR FLEX*/
+
+.container{
+    display: flex;
+    /*DIRECCION*/
+    flex-direction: row;/*FILA, VIENE POR DEFECTO*/
+    flex-direction: row-reverse;/*FILA AL REVES*/
+    flex-direction: column;/*COLUMNA*/
+    flex-direction: column-reverse;/*COLUMNA AL REVES*/
+    /*SI NO CABEN*/
+    flex-wrap: nowrap;/*(default) UNA SOLA LÍNEA*/
+    flex-wrap: wrap;/*se disponene en multiples lineas de arriba a abajo*/
+    flex-wrap: wrap-reverse;/*igual que el otro pero de abajo a arriba*/
+    /*PARA PONER DIRECCION Y WRAP EN UNA LINEA*/
+    flex-flow: column wrap-reverse;
+    /*ALINEACIÓN HORIZONTAL*/
+    justify-content: flex-start;
+    justify-content:flex-end;
+    justify-content:center;
+    justify-content:space-between;/*distribuye el espacio libre*/
+    justify-content:space-around;/* parecido al anterior pero deja espacios en los lados*/
+    justify-content:space-evenly;/*todos los espacios son iguales*/
+    /*ALINEACION VERTICAL*/
+    align-items: flex-start;
+    align-items:flex-end;
+    align-items:center;
+    align-items: stretch;/*lo alarga en todo el contenedor, NO PUEDE TENER ALTURA (NO HEIGHT)*/
+    align-items: baseline;/*Lo alinea al texto si tiene*/
+    /*ALINEACION VERTICAL (VARIAS LINEAS)*/
+    align-content: flex-start;
+    align-content:flex-end;
+    align-content:center;
+    align-content:stretch;
+    align-content:space-between;
+    align-content:space-around;
+}
+
+
+
+/*ELEMENTOS FLEXIBLES*/
+elemento{
+    /*orden*/
+    order: 9;/*el numero indica el orden del elemnto*/
+    /*TAMAÑO DE ELEMNTOS FLEXIBLES*/
+    flex-grow: 4;/*indica el factor de crecimiento de un elemnto flexible cuando se distribuye el espacio restante*/
+    flex-shrink: 3;/*Indica el factor de concentracion de un elemsnto felxible cuando sobrepasan el tamaño del contenedor*/
+    flex-basis: 40%;/*indica el tamaño de un elemento antes de que el espacio (negativo o positivo) se distribuye*/
+    /*estos tres se pueden poner en una linea con*/
+    flex: grow shrink flex-basis-value;
+    /*ALINEACION VERTICAL INDIVIDUAL*/
+    align-self:flex-start ;
+    align-self:flex-end;
+    align-self:center;
+    align-self:stretch;/*no heihtg*/
+    align-self:baseline;
+
+}
