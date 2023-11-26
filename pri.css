@@ -4,6 +4,7 @@ body {
 
 .navbar {
   display: flex;
+  flex-direction: column;
 }
 
 .sup {
@@ -98,4 +99,17 @@ body {
 }
 
 .inf {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.opciones{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.ayuda{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
