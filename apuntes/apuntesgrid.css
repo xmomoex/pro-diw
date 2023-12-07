@@ -1,0 +1,46 @@
+/*ESTRUCTURA GRID*/
+.container {
+  grid-template-columns: 20% 50% 30%; /*numero de columnas del grid y tamaño de las mismas*/
+  grid-template-rows: [uno]100px[dos]200px; /*numero de filas del grid y tamaño de las mismas*/
+  grid-row-gap: 0cm; /*separacion entre las filas*/
+  grid-column-gap: 0cap; /*separacion entre las columnas*/
+  /*ALINACION HORIZONTAL*/
+  justify-items: end;
+  justify-items: center;
+  justify-items: start;
+  justify-items: stretch; /*(por defetcto)*/
+  /*ALINEACION VERTICAL*/
+  align-items: start;
+  align-items: end;
+  align-items: center;
+  align-items: stretch; /*(por defetcto)*/
+  /*UNIR VERTICAL Y HORIZONTAL*/
+  place-items: start end; /*primero vertical y despues horizontal*/
+  /*ALINEACION DENTRO DEL CONTENEDOR*/
+  justify-content: center; /*etc*/
+  align-content: center; /*etc*/
+  /*ESPECIFICAR AREA*/
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  /*para unirlas*/
+  grid-row: 3 / 6; /*PRIMERO LA START Y LUEGO LA END*/
+  grid-column: 3 / 6;
+  /*ALINEACION HORIZONTAL*/
+  justify-self: start;
+  justify-self: end;
+  justify-self: center;
+  justify-self: stretch; /*(por defetcto)*/
+  /*ALINEACION HORIZONTAL*/
+  align-self: end;
+  align-self: start;
+  align-self: center;
+  align-self: stretch; /*(por defetcto)*/
+  /*COLOCACION IMPLICITA*/
+  grid-auto-columns: auto;
+  grid-auto-rows: auto;
+  grid-auto-flow: row; /*rellena las filas primero(por deefcto)*/
+  grid-auto-flow: column; /*rellena las columnas primero*/
+  grid-auto-flow: dense; /*intenta rellenar primero los huecos si vene elemto más pequeños. PUEDE CAMBIAR EL OREDEN DE LOS ELEMANTOS ASÍ QUE HAY QUE TENER CUIDADO*/
+}
