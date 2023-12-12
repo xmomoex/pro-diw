@@ -1,0 +1,175 @@
+/* Contenedor Flex */
+.contenedor-flex {
+    display: flex;
+}
+
+/* Dirección Principal (main-axis) */
+.contenedor-flex {
+    flex-direction: row; /* horizontal (por defecto) */
+    /* flex-direction: column; */ /* vertical */
+}
+
+/* Alineación de Elementos en el Eje Principal */
+.contenedor-flex {
+    justify-content: flex-start; /* inicio (por defecto) */
+    /* justify-content: center; */ /* centro */
+    /* justify-content: space-between; */ /* distribuido uniformemente */
+}
+
+/* Alineación de Elementos en el Eje Transversal */
+.contenedor-flex {
+    align-items: stretch; /* estirar (por defecto) */
+    /* align-items: flex-start; */ /* inicio */
+    /* align-items: flex-end; */ /* fin */
+    /* align-items: center; */ /* centro */
+}
+
+/* Cambio de Dirección en Eje Transversal */
+.elemento-flex {
+    align-self: flex-start; /* inicio */
+    /* align-self: flex-end; */ /* fin */
+    /* align-self: center; */ /* centro */
+}
+
+/* Orden de Elementos */
+.elemento-flex {
+    order: 2; /* Puedes cambiar el orden según tus necesidades */
+}
+
+/* Espacio Entre Elementos */
+.contenedor-flex {
+    gap: 10px; /* Espacio entre elementos */
+}
+
+/* Crecimiento y Encogimiento (Flex Grow y Flex Shrink) */
+.elemento-flex {
+    flex-grow: 1; /* Elemento crecerá si hay espacio */
+    flex-shrink: 0; /* Elemento no se encogerá */
+}
+
+/* Alineación de Contenido */
+.contenedor-flex {
+    align-content: space-between; /* Distribuido uniformemente */
+}
+
+/* Uso de Flexbox para Centrar */
+.contenedor-flex-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Contenedor Flex */
+.contenedor-flex {
+    display: flex;
+}
+
+/* Dirección Principal (main-axis) */
+.contenedor-flex {
+    flex-direction: row; /* horizontal (por defecto) */
+    /* flex-direction: column; */ /* vertical */
+}
+
+/* Alineación de Elementos en el Eje Principal */
+.contenedor-flex {
+    justify-content: flex-start; /* inicio (por defecto) */
+    /* justify-content: center; */ /* centro */
+    /* justify-content: space-between; */ /* distribuido uniformemente */
+}
+
+/* Alineación de Elementos en el Eje Transversal */
+.contenedor-flex {
+    align-items: stretch; /* estirar (por defecto) */
+    /* align-items: flex-start; */ /* inicio */
+    /* align-items: flex-end; */ /* fin */
+    /* align-items: center; */ /* centro */
+}
+
+/* Cambio de Dirección en Eje Transversal */
+.elemento-flex {
+    align-self: flex-start; /* inicio */
+    /* align-self: flex-end; */ /* fin */
+    /* align-self: center; */ /* centro */
+}
+
+/* Orden de Elementos */
+.elemento-flex {
+    order: 2; /* Puedes cambiar el orden según tus necesidades */
+}
+
+/* Espacio Entre Elementos */
+.contenedor-flex {
+    gap: 10px; /* Espacio entre elementos */
+}
+
+/* Crecimiento y Encogimiento (Flex Grow y Flex Shrink) */
+.elemento-flex {
+    flex-grow: 1; /* Elemento crecerá si hay espacio */
+    flex-shrink: 0; /* Elemento no se encogerá */
+}
+
+/* Alineación de Contenido */
+.contenedor-flex {
+    align-content: space-between; /* Distribuido uniformemente */
+}
+
+/* Uso de Flexbox para Centrar */
+.contenedor-flex-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Envoltura de Elementos (Flex Wrap) */
+.contenedor-flex-envoltura {
+    flex-wrap: nowrap; /* sin envoltura (por defecto) */
+    /* flex-wrap: wrap; */ /* con envoltura */
+    /* flex-wrap: wrap-reverse; */ /* con envoltura en sentido inverso */
+}
+
+/* Orden de Elementos en Eje Transversal */
+.contenedor-flex {
+    align-items: flex-start; /* inicio */
+    /* align-items: flex-end; */ /* fin */
+    /* align-items: center; */ /* centro */
+    /* align-items: baseline; */ /* alineación según la línea de base */
+}
+
+/* Orden de Elementos en Eje Principal */
+.contenedor-flex {
+    justify-content: flex-start; /* inicio */
+    /* justify-content: flex-end; */ /* fin */
+    /* justify-content: center; */ /* centro */
+    /* justify-content: space-around; */ /* distribuido uniformemente alrededor */
+    /* justify-content: space-evenly; */ /* distribuido uniformemente */
+}
+
+/* Orden de Elementos en Envoltura */
+.contenedor-flex {
+    align-content: flex-start; /* inicio */
+    /* align-content: flex-end; */ /* fin */
+    /* align-content: center; */ /* centro */
+    /* align-content: space-between; */ /* distribuido uniformemente entre líneas */
+    /* align-content: space-around; */ /* distribuido uniformemente alrededor */
+}
+
+/* Ancho Mínimo y Máximo */
+.elemento-flex {
+    min-width: 100px;
+    max-width: 300px;
+}
+
+/* Altura Mínima y Máxima */
+.elemento-flex {
+    min-height: 50px;
+    max-height: 200px;
+}
+
+/* Orden de Elementos por Defecto */
+.elemento-flex:nth-child(2) {
+    order: -1; /* Moverá este elemento al principio */
+}
+
+/* Flex en Elementos Hijos */
+.elemento-flex {
+    flex: 1 0 auto; /* Equivalente a flex-grow: 1; flex-shrink: 0; flex-basis: auto; */
+}

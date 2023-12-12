@@ -1,0 +1,76 @@
+/* Selección de Elementos */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Propiedades de Texto */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Colores */
+.mi-clase {
+    background-color: #f0f0f0;
+    color: navy;
+}
+
+/* Dimensiones y Márgenes */
+.caja {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* Posicionamiento */
+.flotante {
+    float: left;
+}
+
+.centro {
+    text-align: center;
+}
+
+/* Enlaces e Interactividad */
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Listas */
+ul {
+    list-style-type: square;
+}
+
+/* Fuentes */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+/* Bordes y Sombras */
+.elemento {
+    border: 1px solid #999;
+    box-shadow: 3px 3px 5px #888888;
+}
+
+/* Animaciones y Transiciones */
+.animado {
+    transition: color 0.3s ease-in-out;
+}
+
+.giro {
+    transform: rotate(45deg);
+}
