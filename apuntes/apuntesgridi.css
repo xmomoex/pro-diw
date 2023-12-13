@@ -1,0 +1,60 @@
+/* Contenedor Grid */
+.contenedor-grid {
+    display: grid;
+}
+
+/* Definición de Columnas y Filas */
+.contenedor-grid {
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
+    grid-template-rows: 100px 200px; /* Dos filas con alturas específicas */
+}
+
+/* Espaciado entre Filas y Columnas */
+.contenedor-grid {
+    grid-gap: 10px; /* Espacio entre filas y columnas */
+}
+
+/* Alineación de Contenido */
+.contenedor-grid {
+    justify-items: center; /* Alineación horizontal del contenido */
+    align-items: center; /* Alineación vertical del contenido */
+}
+
+/* Alineación de Contenido Individual */
+.elemento-grid {
+    justify-self: start; /* Alineación horizontal del elemento */
+    align-self: end; /* Alineación vertical del elemento */
+}
+
+/* Posicionamiento de Elementos en el Grid */
+.elemento-grid {
+    grid-column: 1 / span 2; /* Ocupa dos columnas a partir de la primera */
+    grid-row: 1; /* Ocupa la primera fila */
+}
+
+/* Áreas del Grid */
+.contenedor-grid {
+    grid-template-areas:
+        'cabecera cabecera cabecera'
+        'izquierda centro derecha'
+        'pie pie pie';
+}
+
+.elemento-grid {
+    grid-area: centro; /* Asigna el elemento al área 'centro' */
+}
+
+/* Reorganización Responsiva */
+.contenedor-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Columnas responsivas */
+}
+
+/* Combinación de Celdas */
+.elemento-grid {
+    grid-column: span 2; /* Ocupa dos columnas */
+}
+
+/* Orden de Visualización */
+.elemento-grid {
+    order: 1; /* Cambia el orden de visualización */
+}
