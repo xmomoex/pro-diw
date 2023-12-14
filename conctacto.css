@@ -1,0 +1,25 @@
+span {
+  margin-top: 5%;
+  display: flex;
+  color: var(--Primary, #1f2b6c);
+  text-align: center;
+
+  /* Display 2 */
+  font-family: Yeseva One;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  width: 245.683px;
+  height: 233px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--Accent, #bfd2f8);
+}
