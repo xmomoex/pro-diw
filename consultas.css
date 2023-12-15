@@ -140,7 +140,7 @@ body {
   width: 100%;
   height: 600px;
   flex-shrink: 0;
-  background: url(img/caraballito.png);
+  background: url(img/consultas.png);
   background-repeat: no-repeat;
   background-size: cover;
   grid-template-columns: 15% 35% 50%;

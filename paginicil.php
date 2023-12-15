@@ -9,9 +9,7 @@
 </head>
 <body>
     <?php
-    include("navbar.html");
-    include("inicio.html");
-    
+    include("htmls/navbar.html");
     ?>
 </body>
 </html>
