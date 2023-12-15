@@ -2,8 +2,9 @@ body {
   margin: 0px;
 }
 
-.navbar {
+#navbar {
   display: flex;
+  padding: 0;
   flex-direction: column;
 }
 
