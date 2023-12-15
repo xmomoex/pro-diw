@@ -151,6 +151,8 @@ body {
   flex-shrink: 0;
   background: linear-gradient(to left, #ffffff4f, #ffffff),
     url(img/cabeEspecialistas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: grid;
   grid-template-columns: 15% auto;
 }
