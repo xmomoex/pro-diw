@@ -273,11 +273,23 @@ footer .pie .logos {
   margin-top: 5%;
 }
 
-@media only screen and (max-width:840px){
-  .sup .telfyHor{
+@media only screen and (max-width: 840px) {
+  .sup,
+  .inf {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .sup .telfyHor,
+  .inf {
     flex-wrap: wrap;
   }
-  .inf{
-    flex-wrap: wrap;
+
+  .opciones,
+  .ayuda {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
   }
 }
